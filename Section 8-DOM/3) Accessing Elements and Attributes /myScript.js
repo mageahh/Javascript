@@ -41,6 +41,7 @@ var pElements = document.getElementsByClassName("my-paragraph"); //it returns a 
 
 for(var i = 0; i < pElements.length; i++) {
 
+  console.debug(pElements[i].innerHTML);
   alert(pElements[i].innerHTML);
 
 };
